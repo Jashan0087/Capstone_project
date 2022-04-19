@@ -1,0 +1,19 @@
+## Analysing and predicting the income and poverty level of states in US 
+The dataset acs2015 census tract data is based on 5-year estimates from the 2015 American Community Survey and depicts a survey of the people counted 
+in the United States. The census data can be combined with other data analysis techniques to forecast things like state or income, poverty, unemployment,
+employment, total population in US states. 
+The United States Census Bureau (USCB), also known as the Bureau of the Census, is a key component of the United States' Federal Statistical System, 
+and is in charge of gathering data about the American people and economy. The Census Bureau is part of the United States Department of Commerce, and 
+the President of the United States appoints its director. The objective of the survey is showing the actual goal and scope of national government and 
+local government in the different area. The US census bureau data always update the data related to every field for taking wise decisions in upcoming future. 
+The main aim of this dataset to estimates the income of men and women , total population of men and women , analyse the income growth by State , 
+poverty level of race , estimate the employment and unemployment growth in every states. 
+
+Detail of the US Census Demographic Data -2015
+US Census  dataset contains the figures for 74001 separate records and 37 attributes for 52 states are included in the data collection. ‘Census_Tract_Id’, 
+‘State’, ‘County’, ‘Men’, ‘Women’, ‘TotalPop’, ‘Hispanic', 'White', 'Black', 'Native', 'Asian', 'Pacific', 'Citizen', 'Income', 'Poverty', 'Child Poverty', 
+'Professional', 'Service', 'Office', 'Construction', 'Production', 'Drive', 'Carpool', 'Transit', 'Walk', 'Other Transp', 'Work At Home', 'Mean_Commute', 
+'Private_Work', 'Public_Work', 'Self_Employed', 'Family_Work', ’Employed’, 'Unemployment'. Interestingly, we have missing values in the entire rows 
+so we cannot fill the missing values in the dataset. At the end, we decided to drop the rows which have missing values in the dataset.
+
+
